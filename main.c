@@ -9,7 +9,6 @@ int main() {
     printf("3: Right angle Triangle\n");
     printf("4: Exit\n");
     do {
-
         printf("Enter Choice:\n");
         scanf(" %d", &choice);
         switch (choice) {
