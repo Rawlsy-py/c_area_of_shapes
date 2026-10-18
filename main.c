@@ -7,7 +7,7 @@ int main() {
     printf("1: Square\n");
     printf("2: Rectangle\n");
     printf("3: Right angle Triangle\n");
-
+    printf("4: Exit\n");
     do {
 
         printf("Enter Choice:\n");
@@ -48,5 +48,6 @@ int main() {
             break;
         }
     } while ((choice < 1) || (choice <= 3));
+    printf("Exiting. Goodbye...");
     return 0;
 }
